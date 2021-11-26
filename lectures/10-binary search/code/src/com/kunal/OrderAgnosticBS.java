@@ -33,9 +33,9 @@ public class OrderAgnosticBS {
                 }
             } else {
                 if (target > arr[mid]) {
-                    end = mid - 1;
-                } else {
                     start = mid + 1;
+                } else {
+                    end = mid -1;
                 }
             }
         }
